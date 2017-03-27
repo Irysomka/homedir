@@ -1,0 +1,4 @@
+[alias]
+ l = !git --no-pager log --oneline --decorate --graph --max-count=27 --pretty=tformat:\"%C(yellow)%h\t%Cblue%ar\t%Cgreen%an%C(yellow)%d %Creset%s\"
+ st = !git status
+ ci = commit
