@@ -59,17 +59,18 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias be="bundle exec"
-alias gs="git status"
 alias gs='git status'
+alias gco='git checkout'
+alias gp='git push'
+alias ga='git add'
+alias gpu='git pull'
+alias gd='git diff'
+alias gm='git commit -m'
 alias gap='git add -p'
-alias co='git checkout'
+alias be='bundle exec'
 alias gdc='git diff --cached'
+alias emacs='/usr/local/Cellar/emacs-plus/24.5/Emacs.app/Contents/MacOS/Emacs -nw'
+alias gl='git log'
+alias gti='git'
+alias RAT='RAILS_ENV=test'
+alias gfr='git fetch; git reset --hard @{u}'
